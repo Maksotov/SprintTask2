@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>vk.com</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="./Images/icons8-vk-в-круге-48.png">
+</head>
+<body>
+    <div class="header">
+        <div class="vk">
+            <a href="Main.html"><h3>VK</h3></a>
+        </div>
+        <div class="forSearch">
+            <input type="search" id="search" placeholder="Поиск">
+        </div>
+    </div>
+    <div class="main">
+        <div class="main1">
+            <ul>
+                <a href="Main.html" class="reff"><li>Моя страница</li></a>
+                <li>Новости</li>
+                <li>Сообщения</li>
+                <a href="Friends.html" class="reff"><li>Друзья</li></a>
+                <li>Группы</li>
+                <li>Фотография</li>
+                <li>Музыка</li>
+                <li>Видео</li>
+            </ul>
+        </div>
+        <div class="main2">
+            <div class="profile">
+                <div class="profile-img">
+                    <img src="./Images/C._Ronaldo_-_Ballon_d'Or_2014.jpg" alt="ProfilePhoto">
+                </div>
+                <div class="edit">
+                    <button>Редактировать</button>
+                </div>
+            </div>
+            <div class="friends">
+                <p>Друзья 1331</p>
+                <div class="friends-photos">
+                    <div class="friend">
+                        <img src="./Images/salah.jpeg" alt="Fiend" class="my-friend-photo">
+                        <p class="friend-name">Bratan</p>
+                    </div>
+                    <div class="friend">
+                        <img src="./Images/bruyne.jpeg" alt="Fiend" class="my-friend-photo">
+                        <p class="friend-name">Bruyne</p>
+                    </div>
+                    <div class="friend">
+                        <img src="./Images/boy.jpeg" alt="Fiend" class="my-friend-photo">
+                        <p class="friend-name">Boy</p>
+                    </div>
+                    <div class="friend">
+                        <img src="./Images/girl.jpeg" alt="Fiend" class="my-friend-photo">
+                        <p class="friend-name">Kizim</p>
+                    </div>
+                    <div class="friend">
+                        <img src="./Images/greelish.jpeg" alt="Fiend" class="my-friend-photo">
+                        <p class="friend-name">Greelish</p>
+                    </div>
+                    <div class="friend">
+                        <img src="./Images/sancho.jpeg" alt="Fiend" class="my-friend-photo">
+                        <p class="friend-name">Sancho</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main3">
+            <div class="inf">
+                <div class="name-status">
+                    <div class="name">
+                        <h4>Cristiano Ronaldo</h4>
+                        <p>I'm reach man :)</p>
+                    </div>
+                    <code id="status">Online</code>
+                </div>
+                <div class="line"></div>
+                <div class="inf-about-you">
+                    <div class="a1">
+                        <p>День Рождения:</p>
+                        <p>Город:</p>
+                        <p>Семейное положения:</p>
+                        <p>Место работы:</p>
+                        <p>Веб-сайт:</p>
+                    </div>
+                    <div class="a2">
+                        <p>5 февраля 1985 г.</p>
+                        <p>Абу Даби</p>
+                        <p>женат</p>
+                        <p>Футболист Аль-Насра</p>
+                        <p>CR7</p>
+                    </div>
+                </div>
+                <div class="line"></div>
+                <div class="add-inf">
+                    <div class="doc">
+                        <h3>1331</h3>
+                        <p>друг</p>
+                    </div>
+                    <div class="doc">
+                        <h3>224</h3>
+                        <p>подписчика</p>
+                    </div>
+                    <div class="doc">
+                        <h3>12</h3>
+                        <p>фотографии</p>
+                    </div>
+                    <div class="doc">
+                        <h3>0</h3>
+                        <p>видеозаписей</p>
+                    </div>
+                    <div class="doc">
+                        <h3>89</h3>
+                        <p>аудиозаписей</p>
+                    </div>
+                    <div class="doc">
+                        <h3>140</h3>
+                        <p>страниц</p>
+                    </div>
+                </div>
+            </div>
+            <div class="inf2">
+                <div class="d">
+                    <a onclick="closeOpenPhotos(1)">Мои фотографии 12</a>
+                    <a onclick="closeOpenPhotos(1)">Увидеть все фотографий</a>
+                </div>
+                <div class="my-photos">
+                    <img src="./Images/CristianoRonoldo.jpeg" class="img1">
+                    <img src="./Images/cr1.jpeg" class="img1">
+                    <img src="./Images/cr2.jpeg" class="img1">
+                    <img src="./Images/c3.jpeg" class="img1">
+                </div>
+            </div>
+            <div class="inf3">
+                <div class="intr">
+                    <img src="./Images/C._Ronaldo_-_Ballon_d'Or_2014.jpg" class="img3">
+                    <div class="t">
+                        <h4>Cristiano Ronaldo</h4>
+                        <p>13 фев в 3:59</p>
+                    </div>
+                </div>
+                <div class="news">
+                    Мне нравится следить за своим телом – это важная часть моей жизни и моей профессии. У меня нет специальной программы – я просто тренируюсь. Я ем все, что хочу, но в умеренных количествах. У меня хорошие гены, и я не набираю вес, но я много тренируюсь, чтобы поддерживать форму
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="popup" id="popupp">
+        <h2>Все фотографии</h2>
+        <div class="all-images">
+            <img src="./Images/cr1.jpeg" class="img2">
+            <img src="./Images/cr2.jpeg" class="img2">
+            <img src="./Images/c3.jpeg" class="img2">
+            <img src="./Images/CristianoRonoldo.jpeg" class="img2">
+            <img src="./Images/cr4.jpeg" class="img2">
+            <img src="./Images/cr5.jpeg" class="img2">
+            <img src="./Images/cr6.jpeg" class="img2">
+            <img src="./Images/cr7.jpeg" class="img2">
+            <img src="./Images/cr8.jpeg" class="img2">
+            <img src="./Images/cr9.jpeg" class="img2">
+            <img src="./Images/cr10.jpeg" class="img2">
+            <img src="./Images/cr11.jpeg" class="img2">
+        </div>
+        <button class="close" onclick="closeOpenPhotos(0)">Close</button>
+    </div>
+
+<script src="script.js"></script>
+</body>
+</html>

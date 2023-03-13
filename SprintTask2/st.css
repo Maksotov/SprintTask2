@@ -1,0 +1,13 @@
+.name-status {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+
+.i {
+    display: flex;
+}
+
+.inf2 {
+    border: 1px solid black;
+}
